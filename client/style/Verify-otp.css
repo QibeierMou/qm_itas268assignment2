@@ -1,0 +1,88 @@
+/* Verify-otp.css */
+
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body - center content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    min-height: 100vh;
+    background-color: #f5f6fa;
+    flex-direction: column;  /* vertical stacking */
+    padding: 20px;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 30px;
+    color: #2f3640;
+    text-align: center;
+}
+
+/* Form container */
+form {
+    display: flex;
+    flex-direction: column; /* stack inputs and button vertically */
+    width: 100%;
+    max-width: 350px;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    margin-bottom: 15px;
+}
+
+/* Input field */
+input[type="text"] {
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #0097e6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #40739e;
+}
+
+/* Resend OTP button */
+#resendOtp {
+    background-color: #e1b12c;
+    width: 100%;
+    max-width: 350px;
+}
+
+#resendOtp:hover {
+    background-color: #fbc531;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    form, #resendOtp {
+        width: 90%;
+        padding: 25px 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+}

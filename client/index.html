@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="./style/Register.css">
+</head>
+<body>
+
+<h2>Register</h2>
+
+<form id="registerForm">
+    <input type="email" id="email" placeholder="Email" required><br>
+
+    <input type="text" id="phone" placeholder="Phone Number" required><br>
+
+    <input type="password" id="password" placeholder="Password" required><br>
+
+    <select id="role" required>
+        <option value="">Select Role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="admin">Admin</option>
+    </select><br>
+
+    <label><input type="radio" name="otpMethod" value="email" checked> Email</label>
+    <label><input type="radio" name="otpMethod" value="sms"> SMS</label><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<p><a href="login.html">Already have an account? Login</a></p>
+
+<script src="app.js"></script>
+</body>
+</html>

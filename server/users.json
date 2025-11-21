@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "userId": "1763582739190",
+      "email": "test@example.com",
+      "phoneNumber": "1234567890",
+      "password": "$2b$10$Mk/LT8xn9opM2ziNZHIIhewbYgIfekNYfIXSvRcyIJ1OFreONcOAC",
+      "role": "student",
+      "otpMethod": "email",
+      "otp": "181242",
+      "otpExpiry": 1763583039190,
+      "verified": false
+    },
+    {
+      "userId": "1763753210402",
+      "email": "qibeier.mou@itas.ca",
+      "phoneNumber": "9106295571",
+      "password": "$2b$10$0SibzjHmfamKP5WCir1KnOQ6kE6dixetG.jt27wpHRHt.NTG/WT/.",
+      "role": "teacher",
+      "otpMethod": "sms",
+      "otp": "980389",
+      "otpExpiry": 1763753510402,
+      "verified": false
+    },
+    {
+      "userId": "1763753704357",
+      "email": "jasonmou1224@gmail.com",
+      "phoneNumber": "7786740333",
+      "password": "$2b$10$LvQ.6GE7241nYoW5iqnsWu5koflaFRhTGxYWX7wm4OXpPLE7B6QF2",
+      "role": "student",
+      "otpMethod": "sms",
+      "otp": null,
+      "otpExpiry": null,
+      "verified": true
+    },
+    {
+      "userId": "1763755143589",
+      "email": "1354856136@qq.com",
+      "phoneNumber": "7786740333",
+      "password": "$2b$10$0Mv0m5pGnKsmpe9tta8hluo.t8CFKYo.581jFAwV9A27cztrkVrpO",
+      "role": "student",
+      "otpMethod": "email",
+      "otp": "375638",
+      "otpExpiry": 1763755443589,
+      "verified": false
+    }
+  ]
+}
